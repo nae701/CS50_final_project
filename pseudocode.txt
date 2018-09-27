@@ -1,0 +1,9 @@
+Make sure that the user inputs only one command-line argument
+Comb through the input to ensure it is an integer
+Convert the input from the command-line from a string to an integer
+Ask user to input their plaintext
+Going through each character in plaintext:
+   i) if uppercase, shift it while preseriving case then print out shifted character
+   ii) if lowercase, shift it while preserving case then print out shifted character
+   iii) else prinout the character without changing it 
+Print a new line
