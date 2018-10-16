@@ -1,0 +1,37 @@
+/*******************
+ * Problem Set 5   *
+ * CS50, Fall 2018 *
+ *******************/
+
+body
+{
+    /* hex color code for Harvard crimson */
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+
+header
+{
+    background-color: darkblue;
+}
+
+a
+{
+    background-color: #40e0d0;
+    font-size: x-large;
+}
+
+main
+{
+    color: #A51C30;
+    text-align: left
+}
+
+footer
+{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     background-color: darkblue;
+}
