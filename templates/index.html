@@ -1,0 +1,27 @@
+ {% extends "layout.html" %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block main %}
+    <form action="/" method="post">
+        <div class="form-group">
+            <h3>Enter the name of the house you would like to find</h3>
+            <input autocomplete="off" autofocus class="form-control" name="place" placeholder="House" type="text">
+        </div>
+        <button id="search" class="btn btn-primary" type="submit">Search</button>
+    </form>
+    <br>
+    <h1>OR</h1>
+    <br>
+    <form action="/geo" method="POST">
+        <button id="geo" class="btn btn-primary">Use Geolocation</button>
+    </form>
+    <br><br>
+    <footer class="small text-center text-muted">
+       Floor plans for Cabot, Currier, Pforzheimer, and Leverett Houses are unavailable
+    </footer>
+
+
+{% endblock %}

@@ -1,0 +1,24 @@
+ {% extends "layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block main %}
+    <h1>{{ title }}</h1>
+    <ul>
+    {% for i in n %}
+        <li>
+            <form action="/" method="POST">
+                <a href="" onclick="document.forms[{{i}}].submit();return false;">{{ HOUSES[i]|capitalize }}</a>
+                <input type="hidden" name="place" value={{HOUSES[i]}} />
+            </form>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <br><br>
+    <footer class="small text-center text-muted">
+       Floor plans for Cabot, Currier, Pforzheimer, and Leverett Houses are unavailable
+    </footer>
+{% endblock %}
