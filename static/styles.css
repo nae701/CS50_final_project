@@ -1,0 +1,67 @@
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+
+}
+
+/* colors for brand */
+nav .navbar-brand .crimson
+{
+    color: #990000;
+}
+nav .navbar-nav
+{
+    font-size:x-large;
+}
+
+main .form-control
+{
+
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    background-color: #800000;
+    color: white;
+
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+    height: 680px;
+
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+#search
+{
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #900000;
+}
+
+#geo
+{
+    background-color: #d3d3d3;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: #900000;
+}
+
+li
+{
+    text-align: left;
+}

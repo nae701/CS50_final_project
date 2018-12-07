@@ -1,0 +1,12 @@
+ {% extends "layout.html" %}
+
+{% block title %}
+    Error
+{% endblock %}
+
+{% block main %}
+    <h1>
+       ERROR: {{ message }}
+    </h1>
+    <img src="/static/error.jpg" alt="Oops!">
+{% endblock %}
