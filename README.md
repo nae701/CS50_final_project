@@ -1,5 +1,5 @@
-Solving the Harvard Labyrinth
-
+# Solving the Harvard Labyrinth
+# help users convienently find the floor plans of the Harvard Houses
 The main purpose of my project is to help users convienently find the floor plans of the Harvard Houses. The idea came
 from my struggles as a freshman (and even as a sophomore!) in trying to find a restroom or a specific room in a house that
 I was unfamiliar with.
